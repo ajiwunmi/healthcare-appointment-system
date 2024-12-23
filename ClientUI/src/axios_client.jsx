@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 const axiosClient = axios.create({
-    // baseURL: `${import.meta.env.VITE_API_BASE_URL}`,
-    baseURL: "https://api.schoolshell.net/api",
+    //baseURL: import.meta.env.VITE_API_URL,
+     baseURL: "http://localhost:8000/api",
     headers: {
         'Content-Type': 'application/json',
     },
